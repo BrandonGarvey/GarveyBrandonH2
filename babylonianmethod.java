@@ -14,7 +14,7 @@ public class babylonianmethod {
   
   public static double getSqrt(double number) {
     
-    double error = 0;
+    double error = 1e-3;
     double x = number;
     
     while((x - number/x) > error){
